@@ -1,0 +1,9 @@
+/ignoreAccessChecks
+/metadataFile "C:\Users\mcjob\Documents\Visual Studio 2015\Projects\HabitTracker\HabitTracker\obj\x64\Release\ilc\intermediate\ILTransformed\HabitTracker.metadata"
+/gvmAssemblyName "System.Private.CoreLib"
+/o
+/sharedGenerics
+/ilmergeinfo "C:\Users\mcjob\Documents\Visual Studio 2015\Projects\HabitTracker\HabitTracker\obj\x64\Release\ilc\intermediate\ILTransformed\HabitTracker.csv"
+/sharedGenericsMode StandardHeuristics
+/in "C:\Users\mcjob\Documents\Visual Studio 2015\Projects\HabitTracker\HabitTracker\obj\x64\Release\ilc\intermediate\ILTransformed\HabitTracker.ilexe"
+/out "C:\Users\mcjob\Documents\Visual Studio 2015\Projects\HabitTracker\HabitTracker\obj\x64\Release\ilc\intermediate\MDIL\HabitTracker.mdilexe"

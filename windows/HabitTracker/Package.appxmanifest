@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" IgnorableNamespaces="uap mp">
+  <Identity Name="2c9b2d4e-c51f-4c61-bbaa-8792a697b944" Publisher="CN=mcjob" Version="1.0.0.0" />
+  <mp:PhoneIdentity PhoneProductId="2c9b2d4e-c51f-4c61-bbaa-8792a697b944" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
+  <Properties>
+    <DisplayName>HabitTracker</DisplayName>
+    <PublisherDisplayName>Joseph Brumaghim</PublisherDisplayName>
+    <Logo>Assets\StoreLogo.png</Logo>
+  </Properties>
+  <Dependencies>
+    <TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.0.0" MaxVersionTested="10.0.0.0" />
+  </Dependencies>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="HabitTracker.App">
+      <uap:VisualElements DisplayName="HabitTracker" Square150x150Logo="Assets\LetterH150.png" Square44x44Logo="Assets\Assets\LetterH44.png" Description="HabitTracker" BackgroundColor="transparent">
+        <uap:DefaultTile Wide310x150Logo="Assets\LetterH310150.png" ShortName="Habbit Tracker" Square310x310Logo="Assets\LetterH310.png" Square71x71Logo="Assets\LetterH71.png">
+          <uap:ShowNameOnTiles>
+            <uap:ShowOn Tile="square150x150Logo" />
+            <uap:ShowOn Tile="wide310x150Logo" />
+            <uap:ShowOn Tile="square310x310Logo" />
+          </uap:ShowNameOnTiles>
+        </uap:DefaultTile>
+        <uap:SplashScreen Image="Assets\LetterH160600.png" />
+        <uap:InitialRotationPreference>
+          <uap:Rotation Preference="landscape" />
+        </uap:InitialRotationPreference>
+      </uap:VisualElements>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClient" />
+    <Capability Name="privateNetworkClientServer" />
+  </Capabilities>
+</Package>
