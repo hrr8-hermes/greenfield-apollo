@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DESKTOP-46H1H7Q</Machine>
+    <WindowsUser>mcjob</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Release|x64</SolutionConfiguration>
+    <PackageArchitecture>x64</PackageArchitecture>
+    <PackageIdentityName>2c9b2d4e-c51f-4c61-bbaa-8792a697b944</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\mcjob\Documents\Visual Studio 2015\Projects\HabitTracker\HabitTracker\obj\x64\Release\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>CB18C52F768430390B140C6930DC5D602F6B89F0F7CCC2B8F1BC16C9D1EF06C2</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>2c9b2d4e-c51f-4c61-bbaa-8792a697b944_1.0.0.0_x64__nj5g3v3w9s9ne</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>2c9b2d4e-c51f-4c61-bbaa-8792a697b944_nj5g3v3w9s9ne!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>2c9b2d4e-c51f-4c61-bbaa-8792a697b944</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=mcjob</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\mcjob\Documents\Visual Studio 2015\Projects\HabitTracker\HabitTracker\bin\x64\Release\ilc\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-10-13T01:31:24.800</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\mcjob\Documents\Visual Studio 2015\Projects\HabitTracker\HabitTracker\bin\x64\Release\ilc\ApplicationInsights.config">
+      <PackagePath>ApplicationInsights.config</PackagePath>
+      <Modified>2015-10-08T22:15:23.679</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mcjob\Documents\Visual Studio 2015\Projects\HabitTracker\HabitTracker\bin\x64\Release\ilc\Assets\Assets\LetterH44.scale-100.png">
+      <PackagePath>Assets\Assets\LetterH44.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-10-12T22:01:39.672</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mcjob\Documents\Visual Studio 2015\Projects\HabitTracker\HabitTracker\bin\x64\Release\ilc\Assets\LetterH.png">
+      <PackagePath>Assets\LetterH.png</PackagePath>
+      <Modified>2015-10-12T21:59:02.507</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mcjob\Documents\Visual Studio 2015\Projects\HabitTracker\HabitTracker\bin\x64\Release\ilc\Assets\LetterH150.scale-100.png">
+      <PackagePath>Assets\LetterH150.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-10-12T22:00:36.675</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mcjob\Documents\Visual Studio 2015\Projects\HabitTracker\HabitTracker\bin\x64\Release\ilc\Assets\LetterH160600.scale-200.png">
+      <PackagePath>Assets\LetterH160600.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-10-12T22:21:14.759</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mcjob\Documents\Visual Studio 2015\Projects\HabitTracker\HabitTracker\bin\x64\Release\ilc\Assets\LetterH310.scale-100.png">
+      <PackagePath>Assets\LetterH310.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-10-12T22:01:04.345</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mcjob\Documents\Visual Studio 2015\Projects\HabitTracker\HabitTracker\bin\x64\Release\ilc\Assets\LetterH310150.scale-100.png">
+      <PackagePath>Assets\LetterH310150.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-10-12T22:12:12.346</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mcjob\Documents\Visual Studio 2015\Projects\HabitTracker\HabitTracker\bin\x64\Release\ilc\Assets\LetterH71.scale-100.png">
+      <PackagePath>Assets\LetterH71.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-10-12T22:01:22.454</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mcjob\Documents\Visual Studio 2015\Projects\HabitTracker\HabitTracker\bin\x64\Release\ilc\Assets\LockScreenLogo.scale-200.png">
+      <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
+      <Modified>2015-08-27T05:38:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mcjob\Documents\Visual Studio 2015\Projects\HabitTracker\HabitTracker\bin\x64\Release\ilc\Assets\SplashScreen.scale-200.png">
+      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
+      <Modified>2015-08-27T05:38:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mcjob\Documents\Visual Studio 2015\Projects\HabitTracker\HabitTracker\bin\x64\Release\ilc\Assets\Square150x150Logo.scale-200.png">
+      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
+      <Modified>2015-08-27T05:38:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mcjob\Documents\Visual Studio 2015\Projects\HabitTracker\HabitTracker\bin\x64\Release\ilc\Assets\Square44x44Logo.scale-200.png">
+      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
+      <Modified>2015-08-27T05:38:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mcjob\Documents\Visual Studio 2015\Projects\HabitTracker\HabitTracker\bin\x64\Release\ilc\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <Modified>2015-08-27T05:38:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mcjob\Documents\Visual Studio 2015\Projects\HabitTracker\HabitTracker\bin\x64\Release\ilc\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-08-27T05:38:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mcjob\Documents\Visual Studio 2015\Projects\HabitTracker\HabitTracker\bin\x64\Release\ilc\Assets\Wide310x150Logo.scale-200.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
+      <Modified>2015-08-27T05:38:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mcjob\Documents\Visual Studio 2015\Projects\HabitTracker\HabitTracker\bin\x64\Release\ilc\ClrCompression.dll">
+      <PackagePath>ClrCompression.dll</PackagePath>
+      <Modified>2015-10-08T22:15:17.656</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mcjob\Documents\Visual Studio 2015\Projects\HabitTracker\HabitTracker\bin\x64\Release\ilc\HabitTracker.dll">
+      <PackagePath>HabitTracker.dll</PackagePath>
+      <Modified>2015-10-13T01:31:24.296</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mcjob\Documents\Visual Studio 2015\Projects\HabitTracker\HabitTracker\bin\x64\Release\ilc\HabitTracker.exe">
+      <PackagePath>HabitTracker.exe</PackagePath>
+      <Modified>2015-10-13T01:31:24.779</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mcjob\Documents\Visual Studio 2015\Projects\HabitTracker\HabitTracker\bin\x64\Release\ilc\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2015-10-13T01:30:42.374</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Runtime.1.1\1.1\">
+      <Name>Microsoft.NET.Native.Runtime.1.1</Name>
+      <Version>1.1.23231.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Runtime.1.1, MinVersion = 1.1.23231.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Runtime.1.1\1.1\.\AppX\ARM\Microsoft.NET.Native.Runtime.1.1.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Runtime.1.1\1.1\">
+      <Name>Microsoft.NET.Native.Runtime.1.1</Name>
+      <Version>1.1.23231.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Runtime.1.1, MinVersion = 1.1.23231.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Runtime.1.1\1.1\.\AppX\x64\Microsoft.NET.Native.Runtime.1.1.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Runtime.1.1\1.1\">
+      <Name>Microsoft.NET.Native.Runtime.1.1</Name>
+      <Version>1.1.23231.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Runtime.1.1, MinVersion = 1.1.23231.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Runtime.1.1\1.1\.\AppX\x86\Microsoft.NET.Native.Runtime.1.1.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.22929.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.22929.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\ARM\Microsoft.VCLibs.ARM.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.22929.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.22929.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\x64\Microsoft.VCLibs.x64.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.22929.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.22929.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\x86\Microsoft.VCLibs.x86.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>
