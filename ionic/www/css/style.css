@@ -3,6 +3,20 @@
   max-width: 700px;
 }
 
+.col {
+  text-align: center;
+  font-size: 11.5px;
+}
+
+.row {
+  text-align: center;
+  margin: auto !important;
+}  
+
+
+.item-complex .item-content, .item{
+    background-color: #E1E4ED !important;
+}
 .create input {
   border: 1px solid #ccc;
   color: #888;
@@ -21,6 +35,10 @@
 
 .donut svg {
   max-height: 155px;
+}
+
+d3-bars {
+  width: 20px;
 }
 
 input[readonly] {

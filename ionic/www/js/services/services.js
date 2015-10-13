@@ -1,7 +1,9 @@
 angular.module('app.services', [])
 
-.factory('Habits', ['$http', '$sanitize', '$interpolate', 'notify',
-  function($http, $sanitize, $interpolate, notify) {
+.value('hostUrl', 'http://localhost:8080')
+
+.factory('Habits', ['$http', '$sanitize', '$interpolate', 'notify', 'hostUrl',
+  function($http, $sanitize, $interpolate, notify, hostUrl) {
 
     var _habit = {};
     var service = {};
@@ -9,21 +11,47 @@ angular.module('app.services', [])
     service.getHabits = function() {
       return $http({
         method: 'GET',
-        url: '/api/users/habits'
+        url: hostUrl + '/api/users/habits'
       })
       .then(function(resp) {
         return resp.data.habits;
       });
     };
 
+    service.addFakeData = function(username, difficultyPointsEarned, possiblePointsThisDay) {
+      return $http({
+        method: 'POST',
+        url: hostUrl + '/api/users/fakeuserdata',
+        data: { 
+          username: username, 
+          recentStats: [{theDate: new Date(), 
+            difficultyPointsEarned: difficultyPointsEarned,
+            possiblePointsThisDay: possiblePointsThisDay
+        }]}
+      })
+      .then(function(resp) {
+        console.log(resp.data);
+      }); 
+    };
+
     service.addHabit = function(habit) {
       habit.habitName = $sanitize(habit.habitName);
       return $http({
         method: 'POST',
-        url: '/api/users/habits',
+        url: hostUrl + '/api/users/habits',
         data: habit
       });
     };
+
+    service.getStats = function(){
+      return $http({
+        method: 'GET',
+        url: hostUrl + '/api/users/allstats',
+      })
+      .then(function(resp){
+        return resp.data; 
+      })
+    }
 
     service.setEdit = function(habit) {
       _habit = habit;
@@ -38,7 +66,7 @@ angular.module('app.services', [])
     service.updateHabit = function(habit) {
       return $http({
         method: 'PUT',
-        url: '/api/users/habits/' + habit._id,
+        url: hostUrl + '/api/users/habits/' + habit._id,
         data: habit
       });
     };
@@ -58,7 +86,7 @@ angular.module('app.services', [])
       notify('Great job completing your habit!');
       return $http({
         method: 'POST',
-        url: '/api/records/' + habit._id,
+        url: hostUrl + '/api/records/' + habit._id,
         data: habit
       });
     };
@@ -68,15 +96,15 @@ angular.module('app.services', [])
   }
 ])
 
-.factory('Auth', ['$http', '$location', '$window', '$auth', '$sanitize',
-  function ($http, $location, $window, $auth, $sanitize) {
+.factory('Auth', ['$http', '$location', '$window', '$auth', '$sanitize', 'hostUrl', '$state',
+  function ($http, $location, $window, $auth, $sanitize, hostUrl, $state) {
 
-    var urlPrefix = 'http://localhost:8080';
 
     var signin = function (user) {
+      console.log(hostUrl);
       user.username = $sanitize(user.username);
       user.password = $sanitize(user.password);
-      return $http.post('/authenticate/signin', user)
+      return $http.post(hostUrl + '/authenticate/signin', user)
         .then(function (resp) {
           return resp.data.token;
         });
@@ -85,7 +113,8 @@ angular.module('app.services', [])
     var signup = function (user) {
       user.username = $sanitize(user.username);
       user.password = $sanitize(user.password);
-      return $http.post(urlPrefix + '/authenticate/signup', user)
+      return $http.post(hostUrl + '/authenticate/signup', user)
+
         .then(function (resp) {
           return resp.data.token;
         });
@@ -96,9 +125,12 @@ angular.module('app.services', [])
     };
 
     var signout = function () {
+      console.log('signing out...');
       $auth.logout()
         .then(function() {
-          $location.path('/signin');
+          console.log('in promise');
+          //$state.go('signin');
+          $location.path(hostUrl + '/signin');
         });
     };
 
